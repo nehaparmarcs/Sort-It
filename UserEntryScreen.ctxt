@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=UserEntryScreen
+comment1.params=
+comment1.target=UserEntryScreen()
+comment2.params=filename
+comment2.target=void\ setFilename(java.lang.String)
+comment2.text=\n\ Sets\ the\ default\ filename\ that\ can\ be\ changed\ by\ the\ user.\n\n\ @param\ filename\ The\ default\ file\ name.\n
+comment3.params=
+comment3.target=java.lang.String\ getFilename()
+comment3.text=\n\ Returns\ the\ name\ of\ the\ file\ entered\ by\ the\ user.\n\n\ @return\ The\ file\ name\ entered\ by\ the\ user.\n
+comment4.params=
+comment4.target=java.lang.String\ getUserName()
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\n\ Clears\ the\ display\ area\ and\ removes\ this\ object\ from\ the\ world.\n
+comment6.params=c
+comment6.target=void\ actionPerformed(GUIComponent)
+comment7.params=w
+comment7.target=void\ addedToWorld(greenfoot.World)
+comment7.text=\n\ Save\ the\ world\ and\ draw\ it.\n\n\ @param\ w\ the\ world.\n
+comment8.params=
+comment8.target=void\ draw()
+comment8.text=\n\ Draw\ the\ screen.\n
+comment9.params=line\ font\ x\ y
+comment9.target=int\ printCentered(java.lang.String,\ java.awt.Font,\ int,\ int)
+comment9.text=\n\ Method\ printCentered\ displays\ a\ single\ centered\ line.\n\n\ @param\ line\ The\ line\ of\ text\ to\ display.\n\ @param\ font\ The\ font\ to\ use.\n\ @param\ x\ The\ x-coordinate\ offset.\n\ @param\ y\ The\ y-coordinate\ offset.\n\ @return\ The\ y\ location\ for\ use\ in\ the\ next\ print\ operation.\n
+numComments=10
