@@ -13,197 +13,197 @@
 
 :CAT1:GREENFOOT: THE CLASS
 
-:QUEST1:100:When you want to work with an image, use this class.
-:ANSWER1:T:GreenfootImage
-:ANSWER1:F:Actor
-:ANSWER1:F:Greenfoot
-:ANSWER1:F:World
+:QUEST1:100:Which of the following best describes sorting ?
+:ANSWER1:T:Arranging the data (record) in some given order
+:ANSWER1:F:Accessing and processing each record exactly once
+:ANSWER1:F:Finding the location of the record with a given key
+:ANSWER1:F:Adding a new record to the data structure
 :ANSWERORDER1:randomized
-:EXPLANATION1:When you look at the Greenfoot documentation, you see that GreenfootImage is an image for an Actor or World to display.
+:EXPLANATION1:
 
-:QUEST2:200:All of this is the stage on which your objects act.
-:ANSWER2:T:World
-:ANSWER2:F:Actor
-:ANSWER2:F:Greenfoot
-:ANSWER2:F:Stage
+:QUEST2:200:A pivot element to partition unsorted list is used in
+:ANSWER2:T:Quick Sort
+:ANSWER2:F:Merge Sort
+:ANSWER2:F:Insertion Sort
+:ANSWER2:F:Selection Sort
 :ANSWERORDER2:randomized
-:EXPLANATION2:When you look at the Greenfoot documentation, you see that World is the world in which Actors live.
+:EXPLANATION2:
 
-:QUEST3:300:You can play your music with this class.
-:ANSWER3:T:Greenfoot
-:ANSWER3:F:Actor
-:ANSWER3:F:SoundPlayer
-:ANSWER3:F:World
+:QUEST3:300:The following sorting algorithms maintain two sub-lists, one sorted and one to be sorted 
+:ANSWER3:F:Selection Sort
+:ANSWER3:F:Insertion Sort
+:ANSWER3:F:Merge Sort
+:ANSWER3:T:both A & B
 :ANSWERORDER3:randomized
-:EXPLANATION3:When you look at the Greenfoot documentation, you see that Greenfoot is a utility class. One of its methods is playSound(), which plays a sound from a file.
+:EXPLANATION3:
 
-:QUEST4:400:Almost every program you write includes subclasses of these two classes.
-:ANSWER4:T:Actor and World
-:ANSWER4:F:Actor and Greenfoot
-:ANSWER4:F:GreenfootImage and GreenfootSound
-:ANSWER4:F:World and Greenfoot
+:QUEST4:400:Which of the following algorithm pays the least attention to the ordering of the elements in the input list?
+:ANSWER4:T:Selection sort
+:ANSWER4:F:Insertion sort
+:ANSWER4:F:Quick sort
+:ANSWER4:F:None
 :ANSWERORDER4:randomized
-:EXPLANATION4:Every scenario in Greenfoot subclasses World and Actor.
+:EXPLANATION4:
 
-:QUEST5:500:Objects of this class live within objects of another class and usually contains objects of still other classes.
-:ANSWER5:T:Actor
-:ANSWER5:F:Greenfoot
-:ANSWER5:F:String
-:ANSWER5:F:World
+:QUEST5:500:A sort which compares adjacent elements in a list and switches where necessary is
+:ANSWER5:T:bubble sort
+:ANSWER5:F:insertion sort
+:ANSWER5:F:heap sort
+:ANSWER5:F:quick sort
 :ANSWERORDER5:randomized
-:EXPLANATION5:An Actor lives within a World subclass and often contains other objects such as GreenfootImage or String.
+:EXPLANATION5:
 
 :CAT2:RAW DATA
 
-:QUEST6:100:When you want to store whole numbers in a computer's main memory, use this data type.
-:ANSWER6:T:int
-:ANSWER6:F:String
-:ANSWER6:F:double
-:ANSWER6:F:char
+:QUEST6:100:Sorting is not useful for
+:ANSWER6:T:minimizing the storage needed
+:ANSWER6:F:report generation
+:ANSWER6:F:making searching easier and efficient
+:ANSWER6:F:responding to queries easily
 :ANSWERORDER6:randomized
-:EXPLANATION6:The data type of a variable defines the kind of data to store in a computer's main memory. The "int" data type stores integers, which are numbers without a decimal point.
+:EXPLANATION6:
 
-:QUEST7:200:When you want to store sequences of characters, like "Hello World", use this data type.
-:ANSWER7:T:String
-:ANSWER7:F:string
-:ANSWER7:F:str
-:ANSWER7:F:text
+:QUEST7:200:A sort which iteratively passes through a list to exchange the first element with any element less than it and then repeats with a new first element is called
+:ANSWER7:T:insertion sort
+:ANSWER7:F:selection sort
+:ANSWER7:F:heap sort
+:ANSWER7:F:quick sort
 :ANSWERORDER7:randomized
-:EXPLANATION7:Sequences of characters are known as strings. The string data type in Java is "String".
+:EXPLANATION7:
 
-:QUEST8:300:Of 3, 4 or 5, these are all this data type.
-:ANSWER8:T:int
-:ANSWER8:F:String
-:ANSWER8:F:double
-:ANSWER8:F:char
+:QUEST8:300:The way a card game player arranges his cards as he picks them one by one can be compared to
+:ANSWER8:T:Insertion sort
+:ANSWER8:F:Quick sort
+:ANSWER8:F:Merge sort
+:ANSWER8:F:Bubble sort
 :ANSWERORDER8:randomized
-:EXPLANATION8:The numbers 3, 4 and 5 are all integer numbers. An integer is zero or any positive or negative number without a decimal point. The data type for integers is "int".
+:EXPLANATION8:
 
-:QUEST9:400:The literal "9" (with quote marks) is of this data type.
-:ANSWER9:T:String
-:ANSWER9:F:int
-:ANSWER9:F:double
-:ANSWER9:F:char
+:QUEST9:400:You have a sorted array and now you are given an element to be placed in that array so that the resulting array is also sorted, the best sorting technique in this case is
+:ANSWER9:T:Insertion sort
+:ANSWER9:F:Merge sort
+:ANSWER9:F:Quick sort
+:ANSWER9:F:Bubble sort
 :ANSWERORDER9:randomized
-:EXPLANATION9:Sequences of characters inside double quotes are strings. Even though the characters look like numbers the quote marks around the numbers make them a string. Even though the string contains numbers, the double quote marks make this a string. In Java, the data type for a string is "String".
+:EXPLANATION9:
 
-:QUEST10:500:You cannot store the digits of Pi, which is approximately 3.14159, with this numerical data type.
-:ANSWER10:T:int
-:ANSWER10:F:String
-:ANSWER10:F:double
-:ANSWER10:F:float
+:QUEST10:500:Sorting is not possible by using which of the following methods?
+:ANSWER10:T:Deletion
+:ANSWER10:F:Partitioning.
+:ANSWER10:F:Exchange
+:ANSWER10:F:Selection
 :ANSWERORDER10:randomized
-:EXPLANATION10:Pi is approximately 3.14159, which is a number with a decimal point. The "int" data type cannot store numbers with decimal points. Strings can store the digits making up Pi, even though your program cannot perform arithmetic on the number. Both double and float can store Pi as a number though double has more accuracy that float. Thus the best question is, "What is int"?
+:EXPLANATION10:
 
 :CAT3:LOCATION, LOCATION
 
-:QUEST11:100:These 2 coordinates are used to locate a point in a 2-dimensional Cartesian, or coordinate, system.
-:ANSWER11:T:x & y
-:ANSWER11:F:up & down
-:ANSWER11:F:latitude & longitude
-:ANSWER11:F:radius & theta (\u0398)
+:QUEST11:100:Which of the following sorting procedure is the slowest?
+:ANSWER11:T:Bubble sort
+:ANSWER11:F:Quick sort   
+:ANSWER11:F:Heap sort  
+:ANSWER11:F:Shell sort 
 :ANSWERORDER11:randomized
-:EXPLANATION11:A Cartesian coordinate system specifies each point in a plane using the numerical coordinates x & y.
+:EXPLANATION11:
 
-:QUEST12:200:The  origin (0, 0) of the coordinate system is located at this area of a Greenfoot window.
-:ANSWER12:T:the upper left-hand corner
-:ANSWER12:F:in the center
-:ANSWER12:F:the upper right-hand corner
-:ANSWER12:F:the lower left-hand corner
+:QUEST12:200:What operation does the Insertion Sort use to move numbers from the unsorted section to the sorted section of the list? 
+:ANSWER12:T:Swapping
+:ANSWER12:F:Finding the minimum value
+:ANSWER12:F:Finding out an pivot value
+:ANSWER12:F:None of the above
 :ANSWERORDER12:randomized
-:EXPLANATION12:The upper left-hand corner is the origin (0, 0) of the Greenfoot coordinate system.
+:EXPLANATION12:
 
-:QUEST13:300:To move to a specific (x, y) location, use this method of the Actor class.
-:ANSWER13:T:setLocation()
-:ANSWER13:F:location()
-:ANSWER13:F:setXY()
-:ANSWER13:F:setX_Y()
+:QUEST13:300:Selection sort first finds the .......... element in the list and put it in the first position.
+:ANSWER13:T:Smallest element
+:ANSWER13:F:Middle element
+:ANSWER13:F:Largest element
+:ANSWER13:F:Last element
 :ANSWERORDER13:randomized
-:EXPLANATION13:The setLocation() method of the Actor class assigns a new location for an Actor object. The location is specified as a cell index in the world.
+:EXPLANATION13:
 
-:QUEST14:400:To find the current (x, y) coordinate location of an Actor, use these two methods.
-:ANSWER14:T:getX() and getY()
-:ANSWER14:F:x() and y()
-:ANSWER14:F:getXCoordinate() and getYCoordinate()
-:ANSWER14:F:setX() and setY()
+:QUEST14:400:Straight selection sort is basically a method of repeated
+:ANSWER14:T:position adjustment
+:ANSWER14:F:interchange
+:ANSWER14:F:searching
+:ANSWER14:F:None of the above
 :ANSWERORDER14:randomized
-:EXPLANATION14:Method getX() returns the x-coordinate of the object's current location and method getY() returns the y-coordinate of the object's current location.
+:EXPLANATION14:
 
-:QUEST15:500:To move an Actor one pixel to the right use this statement.
-:ANSWER15:T:setLocation(getX() + 1, getY());
-:ANSWER15:F:setLocation(getX() + 10, getY() - 1);
-:ANSWER15:F:setLocation(getX() + 1, getY() - 1);
-:ANSWER15:F:setLocation(getX(), getY() + 1);
+:QUEST15:500:Quick sort running time depends on the selection of
+:ANSWER15:T:pivot element
+:ANSWER15:F:size of array
+:ANSWER15:F:sequence of values
+:ANSWER15:F:none of the above!
 :ANSWERORDER15:randomized
-:EXPLANATION15:These statements should be worked from the inside out. Method getX() returns the x-coordinate of the object's current location. By adding 1, you move the location one pixel to the right. Method getY() returns the y-coordinate of the object's current location. With the (x, y) locations computed, calling the setLocation() method will move an Actor one pixel to the right.
+:EXPLANATION15:
 
 :CAT4:AN ACTOR'S TURN
 
-:QUEST16:100:It's the sum total of the degrees in a circle.
-:ANSWER16:T:360
-:ANSWER16:F:180
-:ANSWER16:F:2\u00B7\u03C0\u00B7r
-:ANSWER16:F:\u03C0\u00B7r\u00B2
+:QUEST16:100:For the improvement of efficiency of quick sort the pivot can be
+:ANSWER16:T:the mean element
+:ANSWER16:F:the first element
+:ANSWER16:F:the last element
+:ANSWER16:F:None of the above
 :ANSWERORDER16:randomized
-:EXPLANATION16:There are 360 degrees in a circle.
+:EXPLANATION16:
 
-:QUEST17:200:For an Actor, zero degrees is in this direction of the compass.
-:ANSWER17:F:to the north
-:ANSWER17:T:to the east
-:ANSWER17:F:to the south
-:ANSWER17:F:to the west
+:QUEST17:200:Quick sort is also known as ........
+:ANSWER17:F:partition and exchange sort
+:ANSWER17:T:merge sort
+:ANSWER17:F:tree sort
+:ANSWER17:F:shell sort
 #:ANSWERORDER17:randomized
-:EXPLANATION17:Zero degrees is to the east and the angle of the circle increases clockwise.
+:EXPLANATION17:
 
-:QUEST18:300:To find the current orientation (or heading) of an actor, use this method of the Actor class.
-:ANSWER18:T:getRotation()
-:ANSWER18:F:getOrientation()
-:ANSWER18:F:getHeading()
-:ANSWER18:F:getDirection()
+:QUEST18:300:In quick sort, the number of partitions into which the file of size n is divided by a selected record is
+:ANSWER18:T:2
+:ANSWER18:F:n
+:ANSWER18:F:n-1
+:ANSWER18:F:None of the above
 :ANSWERORDER18:randomized
-:EXPLANATION18:The getRotation() method of the Actor class returns the current rotation of the object. Rotation is a degree value in the range of (0..359). Zero degrees is to the east and the angle increases clockwise.
+:EXPLANATION18:
 
-:QUEST19:400:To turn an actor facing straight up (or north), use this command.
-:ANSWER19:T:setRotation(270)
-:ANSWER19:F:setRotation(0)
-:ANSWER19:F:setRotation("north")
-:ANSWER19:F:setRotation("up")
+:QUEST19:400:Which of the following algorithm design technique is used in the quick sort algorithm?
+:ANSWER19:T:Divide and conquer
+:ANSWER19:F:Dynamic programming
+:ANSWER19:F:Backtracking
+:ANSWER19:F:Greedy method
 :ANSWERORDER19:randomized
-:EXPLANATION19:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. Use the setRotation() method to set the orientation (or heading) of an Actor.
+:EXPLANATION19:
 
-:QUEST20:500:To turn an actor 10 degress clockwise from their current heading, use this command.
-:ANSWER20:T:turn(10)
-:ANSWER20:F:turn(-10)
-:ANSWER20:F:setRotation(+10)
-:ANSWER20:F:setRotation(-10)
+:QUEST20:500:Merge sort uses ?
+:ANSWER20:T:Divide and conquer strategy
+:ANSWER20:F:Backtracking approach
+:ANSWER20:F:Heuristic search
+:ANSWER20:F:Greedy approach
 :ANSWERORDER20:randomized
-:EXPLANATION20:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. To turn clockwise use a positive number.
+:EXPLANATION20:
 
 :CAT5:AT RANDOM
 
-:QUEST21:100:It is a numerical sequence where the next number cannot be predicted.
-:ANSWER21:T:a random number
-:ANSWER21:F:a sequential number
-:ANSWER21:F:an ordered number
-:ANSWER21:F:a psudeo number
+:QUEST21:100:The operation that combines the element is of A and B in a single sorted list C with n=r+s element is called ....
+:ANSWER21:T:Merging
+:ANSWER21:F:Inserting
+:ANSWER21:F:Mixing
+:ANSWER21:F:Sharing
 :ANSWERORDER21:randomized
-:EXPLANATION21:Random numbers are a series of numbers that lack any pattern and thus appear random. Most times, a random number generator will produce psuedorandom sequences, where numbers appear to be random but are not. Psuedorandom numbers are often sufficient for computer programs, like video games, that need random numbers.
+:EXPLANATION21:
 
-:QUEST22:200:This method of solving problems with a random number generator is named after the casino city of Monaco.
-:ANSWER22:T:Monte Carlo
-:ANSWER22:F:Las Vegas
-:ANSWER22:F:Macau
-:ANSWER22:F:Venise
+:QUEST22:200:After each iteration in bubble sort
+:ANSWER22:T:at least one element is at its sorted position.
+:ANSWER22:F:one less comparison is made in the next iteration.
+:ANSWER22:F:Both A & B are true.
+:ANSWER22:F:Neither A or B are true.
 :ANSWERORDER22:randomized
-:EXPLANATION22:Monte Carlo is a city widely known for its casino. Monte Carlo methods rely on repeated computation of random or pseudorandom numbers.
+:EXPLANATION22:
 
-:QUEST23:300:This expression will return a random number between 0 and 10, including the numbers 0 and 10.
-:ANSWER23:F:Greenfoot.getRandomNumber(9)
-:ANSWER23:F:Greenfoot.getRandomNumber(10)
-:ANSWER23:T:Greenfoot.getRandomNumber(11)
-:ANSWER23:F:Greenfoot.getRandomNumber("10")
+:QUEST23:300:Bubble sort algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and ....... them if they are in the wrong order.
+:ANSWER23:F:Merges
+:ANSWER23:F:Deletes
+:ANSWER23:T:Swaps
+:ANSWER23:F:Iterates
 #:ANSWERORDER23:randomized
-:EXPLANATION23:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Since the upper limit is excluded you must add one to the parameter to include the upper limit.
+:EXPLANATION23:
 
 :QUEST24:400:This expression will produce a random number between -45 and +45.
 :ANSWER24:T:Greenfoot.getRandomNumber(91) - 45
@@ -213,13 +213,13 @@
 :ANSWERORDER24:randomized
 :EXPLANATION24:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Thus the method Greenfoot.getRandomNumber(91) returns a random number between 0 and 90. By subtracting 45, the number shifts to between -45 and +45.
 
-:QUEST25:500:Use this test condition in an if-statement to randomly decide whether to turn 10% of the time.
-:ANSWER25:T:Greenfoot.getRandomNumber(100) < 10
-:ANSWER25:F:Greenfoot.getRandomNumber(10) < 100
-:ANSWER25:F:turn(Greenfoot.getRandomNumber(-90))
-:ANSWER25:F:turn("random") * 10%
+:QUEST25:500:How many swaps are required to sort the given array using bubble sort - { 2, 5, 1, 3, 4}
+:ANSWER25:T:4
+:ANSWER25:F:5
+:ANSWER25:F:6
+:ANSWER25:F:7
 :ANSWERORDER25:randomized
-:EXPLANATION25:The expression "Greenfoot.getRandomNumber(100)" returns a random number between 0 and 99. By testing if the number is < 10, there is a 10% chance of turning when using code like:\n\nif (Greenfoot.getRandomNumber(100) < 10) {\n    // turn statement...\n}
+:EXPLANATION25:
 
 :CAT6:RELATIONAL OPERATORS
 
