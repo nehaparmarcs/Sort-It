@@ -11,7 +11,7 @@
 # Explanation format = :EXPLANATIONX:Explanation text, where X is the question
 #     number. Note that you can force new lines using \n.
 
-:CAT1:GREENFOOT: THE CLASS
+:CAT1:GREENFOOT: Easy
 
 :QUEST1:100:Which of the following best describes sorting ?
 :ANSWER1:T:Arranging the data (record) in some given order
@@ -53,7 +53,7 @@
 :ANSWERORDER5:randomized
 :EXPLANATION5:
 
-:CAT2:RAW DATA
+:CAT2:Beginner
 
 :QUEST6:100:Sorting is not useful for
 :ANSWER6:T:minimizing the storage needed
@@ -95,7 +95,7 @@
 :ANSWERORDER10:randomized
 :EXPLANATION10:
 
-:CAT3:LOCATION, LOCATION
+:CAT3:Advanced
 
 :QUEST11:100:Which of the following sorting procedure is the slowest?
 :ANSWER11:T:Bubble sort
@@ -137,7 +137,7 @@
 :ANSWERORDER15:randomized
 :EXPLANATION15:
 
-:CAT4:AN ACTOR'S TURN
+:CAT4:Expert
 
 :QUEST16:100:For the improvement of efficiency of quick sort the pivot can be
 :ANSWER16:T:the mean element
@@ -179,7 +179,7 @@
 :ANSWERORDER20:randomized
 :EXPLANATION20:
 
-:CAT5:AT RANDOM
+:CAT5:AT Proficient
 
 :QUEST21:100:The operation that combines the element is of A and B in a single sorted list C with n=r+s element is called ....
 :ANSWER21:T:Merging
@@ -221,17 +221,17 @@
 :ANSWERORDER25:randomized
 :EXPLANATION25:
 
-:CAT6:RELATIONAL OPERATORS
+:CAT6:Miscellaneous
 
-:QUEST26:100:This test condition says that, "x is positive".
+:QUEST26:100:Which statement says x is positive?
 :ANSWER26:T:x > 0
 :ANSWER26:F:0 > x
 :ANSWER26:F:x < 0
 :ANSWER26:F:x >= 0
 :ANSWERORDER26:randomized
-:EXPLANATION26:A positive number is a number greater than zero. The relational operator > means "greater than". So the expression (x > 0) means, "x is positive".
+:EXPLANATION26:A positive number must be a number greater than zero. The relational operator > means "greater than". So, In above cases, expression (x > 0) means, "x is positive".
 
-:QUEST27:200:This test condition says that, "x is negative".
+:QUEST27:200:Which statement says x is negative?.
 :ANSWER27:T:x < 0
 :ANSWER27:F:x > 0
 :ANSWER27:F:0 > x
@@ -239,7 +239,7 @@
 :ANSWERORDER27:randomized
 :EXPLANATION27:A negative number is a number less than zero. The relational operator < means "less than". So the expression (x < 0) means, "x is negative".
 
-:QUEST28:300:This test condition says that, "x is zero".
+:QUEST28:300:Which statement says x is ZERO?.
 :ANSWER28:T:x == 0
 :ANSWER28:F:x = 0
 :ANSWER28:F:0 = x
@@ -247,7 +247,7 @@
 :ANSWERORDER28:randomized
 :EXPLANATION28:The equality operator is "==" (two equal signs). So the expression (x == 0) means, "x is zero".
 
-:QUEST29:400:This test condition says that, "x is not equal to y".
+:QUEST29:400:Which statement says X is not equal to Y?
 :ANSWER29:T:x != y
 :ANSWER29:F:x <> y
 :ANSWER29:F:x =! y
@@ -255,7 +255,7 @@
 :ANSWERORDER29:randomized
 :EXPLANATION29:The algebra symbol \u2260 is not easy to make on a standard keyboard. Thus two symbols are used for inequality: "!=". Code the symbols in the order people normally say them.
 
-:QUEST30:500:This test condition says that, "x is greater than y + 1".
+:QUEST30:500:Which statement says X is greater than Y+1?
 :ANSWER30:T:x > y + 1
 :ANSWER30:F:x + y = 1
 :ANSWER30:F:x < y + 1
