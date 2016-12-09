@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=SplashScreen
-comment0.text=\n\ Displays\ flashing\ screens.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ \ 1/12/2011\n
 comment1.params=
 comment1.target=SplashScreen()
 comment1.text=\n\ SplashScreen\ constructor.\n

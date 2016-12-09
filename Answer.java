@@ -1,13 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.awt.Color;
 
-/**
- * An answer - several of these are displayed per question.
- *
- * @author Michael Berry (mjrb4)
- * @author Ed Parrish
- * @version 1.1  12/01/10
- */
+
 public class Answer extends Actor {
     private static final int WIDTH = 500;
     private static final int HEIGHT = 25;

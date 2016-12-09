@@ -4,8 +4,8 @@ import java.awt.Color;
 /**
  * Displays flashing screens.
  *
- * @author Ed Parrish
- * @version 1.0  1/12/2011
+ * @author Neha Parmar
+ * @version 
  */
 public class SplashScreen extends Actor {
     public static final int FLASH_WIDTH = 85;
