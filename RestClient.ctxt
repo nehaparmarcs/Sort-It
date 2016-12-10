@@ -6,4 +6,6 @@ comment2.params=key
 comment2.target=void\ getQuiz(java.lang.String)
 comment3.params=gameName\ playerName
 comment3.target=void\ postData(java.lang.String,\ java.lang.String)
-numComments=4
+comment4.params=gameID
+comment4.target=Game\ getCurrentGame(java.lang.String)
+numComments=5

@@ -55,7 +55,7 @@ public class GameManager extends World implements ActionListener {
     private Label errorMsg;
     private OverScreen over;
     private boolean playedFinal;
-//    RestClient rs  = null;
+    RestClient rs  = null;
 
     /**
      * Initializing GameManager.
@@ -77,9 +77,9 @@ public class GameManager extends World implements ActionListener {
         
         //Added Neha ends
         
-        //rs = new RestClient();
+        rs = new RestClient();
         System.out.println("Pushing player data to Cloud ==== > Game ID: "+ userEntry.gameId +"\n User Name:"+ userEntry.userName);
-        //rs.postData(userEntry.gameId, userEntry.userName);
+        
         
         startGame();
 //        Greenfoot.start();
@@ -196,7 +196,7 @@ public class GameManager extends World implements ActionListener {
     }
 
     /**
-     * Add a single question to the game board
+     * Add every single question to the game board
      */
     private void addQuestionToBoard() {
         int id = Greenfoot.getRandomNumber(30);
@@ -222,8 +222,8 @@ public class GameManager extends World implements ActionListener {
         b.setBorder(null);
         b.setFocusable(false);
         b.setSize(new Dimension(85, 61));
-        b.setBackgroundPressed(new Color(0, 0xCC, 0xFF));
-        b.setBackgroundHover(new Color(0, 0x99, 0xFF));
+        b.setBackgroundPressed(Color.LIGHT_YELLOW);
+        b.setBackgroundHover(Color.YELLOW);
         b.setID(id);
         b.addActionListener(this);
         grid[col][row] = b;
@@ -255,6 +255,7 @@ public class GameManager extends World implements ActionListener {
 
     
     public void startGame() {
+        
         if (over != null) {
             over.clear();
             removeObject(over);
@@ -278,6 +279,7 @@ public class GameManager extends World implements ActionListener {
             try {
                 //System.out.println(userEntry.getUserName());
                 loadRound("basics.txt");
+                rs.postData(userEntry.gameId, userEntry.userName);
                 valid = true;
             } catch (IOException ioe) {
                 String msg = ioe.getMessage();
@@ -285,10 +287,12 @@ public class GameManager extends World implements ActionListener {
                 return;
             }
         }
+        
         clearErrorMessage();
         if (getObjects(SettingsScreen.class).size() != 0) settings.clear();
         if (getObjects(UserEntryScreen.class).size() != 0) userEntry.clear();
         if (getObjects(SplashScreen.class).size() != 0) splash.clear();
+        
         makeBoard();
         Greenfoot.playSound("boardfill.wav");
         System.gc();
