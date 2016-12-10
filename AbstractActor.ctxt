@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=AbstractActor
-comment0.text=\n\ Write\ a\ description\ of\ class\ AbstractActor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ AbstractActor\ here.\n\ \n\ @author\ Neha\ Parmar\n\ @version\ 1.0\n
 comment1.params=
 comment1.target=void\ act()
 numComments=2

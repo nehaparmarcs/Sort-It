@@ -55,10 +55,12 @@ public class GameManager extends World implements ActionListener {
     private Label errorMsg;
     private OverScreen over;
     private boolean playedFinal;
+//    RestClient rs  = null;
 
     /**
-     * Constructor for objects of class GameManager.
+     * Initializing GameManager.
      */
+    
     public GameManager() {
         super(600, 454, 1);
         Label label = new Label("Score:", SCORE_FONT, Color.CYAN);
@@ -75,7 +77,9 @@ public class GameManager extends World implements ActionListener {
         
         //Added Neha ends
         
-        
+        //rs = new RestClient();
+        System.out.println("Pushing player data to Cloud ==== > Game ID: "+ userEntry.gameId +"\n User Name:"+ userEntry.userName);
+        //rs.postData(userEntry.gameId, userEntry.userName);
         
         startGame();
 //        Greenfoot.start();
@@ -249,9 +253,7 @@ public class GameManager extends World implements ActionListener {
 
     // Game flow methods
 
-    /**
-     * Start the game.
-     */
+    
     public void startGame() {
         if (over != null) {
             over.clear();
@@ -268,9 +270,7 @@ public class GameManager extends World implements ActionListener {
         addObject(userEntry, getWidth() / 2, getHeight() / 2 + 37);
     }
 
-    /**
-     * Start a round.
-     */
+    
     public void startRound() {
         questionCount = 0;
         boolean valid = false;
@@ -534,6 +534,7 @@ public class GameManager extends World implements ActionListener {
         methodCategories[2] = "Quick Sort";
         methodCategories[3] = "Selection Sort";
         methodCategories[4] = "Merge Sort";
+        methodCategories[5] = "General Maths";
         
     }
     
